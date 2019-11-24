@@ -28,7 +28,7 @@ You can initialize a git repository in the root.
 
 Run `docker-compose up -d api` and wait 1 or 2 seconds until the project boots up. It should be accessible in a browser using `http://localhost:3001`. If this port is already used, change it in `docker-compose.yml`, i.e. `"8080:3001"`
 
-Should you execute any FoalTS command, you can use this format: `docker-compose run --rm api foal <insert command>`.
+If you need to execute any FoalTS/npm command, you can use this format: `docker-compose run --rm api foal <insert command>`.
 
 ## How to build and run
 
